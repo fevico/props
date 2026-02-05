@@ -61,7 +61,7 @@ const ComplexProps = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {users.map((userDate, index) => (
                     <UserProfileCard key={index} {...userDate} />
-                ))}
+                ))} 
             </div>
         </div>
     </div>
